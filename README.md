@@ -1,4 +1,4 @@
-A REST Primer in NodeJS
+# A REST Primer in NodeJS
 
 This is a demonstration of implementing a REST api in NodeJS using express middleware.
 We will create a REST api application that will work with a MySQL backend and provide a REST interface to the outside world to do CRUD on an Employee database.
@@ -20,7 +20,7 @@ Employee routes will provide a url mapping wrapper on top of the Employee model 
 1. GET    - http://localhost:3000/employees     - get all employees
 2. GET    - http://localhost:3000/employees/1   - get the employee with this id
 3. DELETE - http://localhost:3000/employees/1 	- delete the employee with this id
-4. POST   - http://localhost:3000/employees 	- create a new employee (with data in HTTP request body)
+4. POST   - http://localhost:3000/employees    	- create a new employee (with data in HTTP request body)
 5. PUT    - http://localhost:3000/employees/1 	- update the employee with this id (with data in HTTP request body)
 
 ## DB
@@ -36,7 +36,7 @@ We instantiate an instance of that class that facilitates us in developing the A
 2. body-parser that will be used to convert the body of the HTTP request and response into JSON format
 3. additional chaining methods to add more handlers on request or response
 
-##Output
+## Output
 
 ## GET all employees
 
@@ -48,4 +48,10 @@ We instantiate an instance of that class that facilitates us in developing the A
 ## PUT and update a particular employee
 
 ## DELETE an employee
+
+## Another POST for a new employee
+
+## Verify employee in DB
+
+
 
